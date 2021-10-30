@@ -1,0 +1,227 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a{
+	color: #0074ea;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #e9e9e9;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #666666;
+	background: #000100 url(images/header.jpg) no-repeat top right;
+}
+
+#main{
+	float:right;
+	padding-right: 98px;
+	padding-top: 35px;
+	width: 904px;
+	margin-bottom: 10px;
+}
+
+#logo{
+	padding-left: 5px;
+	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+#logo H3 a{
+	font-size: 10px;
+}
+
+#menu{
+	height: 37px;
+}
+
+#buttons{
+	width: 654px;
+	height: 37px;
+	margin: 0 auto;
+}
+
+#buttons ul {
+	padding-left: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#buttons li {
+	display: inline;	
+}
+
+#first{
+	width: 132px;
+	background: url(images/first.png) no-repeat;
+}
+
+#end{
+	width: 132px;
+	background: url(images/end.png) no-repeat;
+}
+
+.menubg{
+	width: 130px;
+	background: url(images/menubg.png) no-repeat;
+}
+
+#buttons a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	display: block;
+	float: left;
+	height: 32px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	padding-top: 15px;
+	min-width: 130px;
+}
+
+#buttons a:hover {
+	color:#1388ff;
+}
+
+#content{
+	width: 904px;
+}
+
+#left{
+	width: 654px;
+	color: #6eb6ff;
+}
+
+#leftbg{
+	background:url(images/leftbg.png) repeat-y;	
+}
+
+#text{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+#left H1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color: #ffffff;
+	font-weight:normal;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.read{
+	text-align:right;
+}
+
+.read a{
+	color: #cbc9c9;
+	
+	padding-right: 50px;
+	text-decoration:none;
+}
+
+.read a:hover{
+	color: #0074ea;
+}
+
+#right{
+	width: 241px;
+	float:right;
+	padding-top: 250px;
+}
+
+#right ul 
+{
+	list-style: none;
+	padding: 5px;
+	margin: 0px;
+	display:block;
+	
+}
+
+#right ul li{
+	margin-bottom: 10px;
+	background: url(images/bor.gif) repeat-x bottom;
+	padding-bottom: 5px;
+}
+
+#right h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	color: #007eff;
+	text-align:center;
+	font-weight:normal;
+	padding-top:11px;
+	height: 36px;
+	margin: 0;
+	background: url(images/title_right.png) no-repeat;
+}
+
+#right a{
+	text-decoration: none;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#right li a {
+	padding-left: 12px;
+	background: url(images/ls.png) no-repeat left top;
+	color:#FFFFFF;
+}
+
+#right li a:hover{
+	background: url(images/lshov.png) no-repeat left top;
+}
+
+#footer{
+	background: url(images/footer.png) no-repeat;
+	height: 37px;
+	width: 654px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #333333;
+	padding-top: 10px;
+	text-align: center;
+	clear:both;
+}
+
+#footer a{
+	color: #007eff;
+	font-size: 10px;
+	text-decoration: none;
+}
+.padding{
+	padding: 10px;
+	color:#FF0000;
+	font-weight: bold;
+}
